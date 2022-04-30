@@ -18,8 +18,10 @@ function App() {
 	}, []);
 	if (loading) {
 		return (
-			<section className="section loading">
-				<h1>Loading...</h1>
+			<section className="h-screen flex justify-center items-center">
+				<h1 className="text-8xl text-[#102a42] font-bold tracking-wide">
+					Loading...
+				</h1>
 			</section>
 		);
 	}
